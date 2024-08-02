@@ -57,6 +57,8 @@ def main():
 
     except Exception as e:
         print(e)
+    except KeyboardInterrupt:
+        pass
     
     print("Shuttting Down FDS:")
     for plugin in plugins:
