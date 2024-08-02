@@ -1,0 +1,7 @@
+# Set up your YAML file to include whatever variable 
+# you need in your detection method. Make sure to set 
+# those variables in that detection method.
+
+test_detection: 
+  url: 'test'
+  weight: 1
